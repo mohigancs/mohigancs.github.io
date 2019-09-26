@@ -1,13 +1,12 @@
 ---
-title: Lesson 1
+title: CS3
+tags: TeXt
 ---
 
-:thonk:
+If you see this page, that means you have setup your site. enjoy! :ghost: :ghost: :ghost:
 
-```java
-public static void main(String[] args) {
-	System.out.println('Hello World!');
-}
-```
+You may want to [config the site](https://tianqi.name/jekyll-TeXt-theme/docs/en/configuration) or [writing a post](https://tianqi.name/jekyll-TeXt-theme/docs/en/writing-posts) next. Please feel free to [create an issue](https://github.com/kitian616/jekyll-TeXt-theme/issues) or [send me email](mailto:kitian616@outlook.com) if you have any questions.
+
+<!--more-->
 
 ---
