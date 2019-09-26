@@ -21,15 +21,18 @@ description: Morgantown High School Computer Science course.
 # List of links in the navigation bar
 navbar-links:
   About: "aboutme"
-  Resources:
-    - Google: "https://www.google.com/"
-    - Stack Overflow: "https://stackoverflow.com/"
-    - Github: "https://github.com"
-  Fun:
+    Fun:
     - CTFTime: "https://ctftime.org/"
     - CodingBat: "https://codingbat.com/java"
     - CodeWars: "https://www.codewars.com/"
     - ae27ff: "https://ae27ff.meme.tips"
+    - pwnables: "http://pwnable.kr/"
+    - overthewire: "https://overthewire.org/wargames/"
+
+  Resources:
+    - Google: "https://www.google.com/"
+    - Stack Overflow: "https://stackoverflow.com/"
+    - Github: "https://github.com"
 
 
 
