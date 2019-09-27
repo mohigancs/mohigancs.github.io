@@ -4,7 +4,7 @@ title: exceptions
 
 ### What is an exception? (abstract)
 
-According to the [Java documentation](https://docs.oracle.com/javase/tutorial/essential/exceptions/definition.html), *an exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions*. Basically, an exception is a special condition that is unexpected during execution. Usually this is an error. In Java, all errors are classes that extent the builtin *Exception* class.
+According to the [Java documentation](https://docs.oracle.com/javase/tutorial/essential/exceptions/definition.html), *an exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions*. Basically, an exception is a special condition that is unexpected during execution. Usually this is an error. In Java, all errors are classes that extend the builtin *Exception* class.
 
 ### Catching Exceptions
 
@@ -15,13 +15,13 @@ public static void main(String[] args) {
 	try {
 		int a = 1 / 0;
 	} catch (ArithmeticException exception) {
-		System.out.println("Oh no! There has been an arithmatic error. Have a look.");
+		System.out.println("Oh no!");
 		System.out.println(exception);
 	}
 }
 ```
 
-Keep in mind, if we comment out the line containing the `1 / 0`, the `catch` block will never run since there wasn't an error to catch. This is why exceptions are important. 
+Keep in mind, if we comment out the line containing the `1 / 0`, the `catch` block will never run since there was never an error thrown.
 
 <!-- Add in more examples and use finally statements -->
 
@@ -37,13 +37,13 @@ rather than something like the following...
 
 ```
 java.sql.SQLException: Transaction (Process ID 57) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
-     at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368)
-     at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2816)
-     at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2254)
-     at net.sourceforge.jtds.jdbc.TdsCore.isDataInResultSet(TdsCore.java:795)
-     at net.sourceforge.jtds.jdbc.JtdsResultSet.<init>(JtdsResultSet.java:146)
-     at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQLQuery(JtdsStatement.java:483)
-     at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.executeQuery(JtdsPreparedStatement.java:777)
+  at net.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368)
+  at net.TdsCore.tdsErrorToken(TdsCore.java:2816)
+  at net.jdbc.TdsCore.nextToken(TdsCore.java:2254)
+  at net.TdsCore.isDataInResultSet(TdsCore.java:795)
+  at net.sourceforge.<init>(JtdsResultSet.java:146)
+  at net.sourceforge.executeSQLQuery(JtdsStatement.java:483)
+  at net.jtds.executeQuery(JtdsPreparedStatement.java:777)
 ```
 
 Verbose errors like the one above are not only ugly and confusing for a customer but could also give a hacker compromising information about the server that the code is running on. 
