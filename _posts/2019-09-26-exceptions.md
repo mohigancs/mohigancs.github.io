@@ -4,7 +4,7 @@ title: exceptions
 
 ### What is an exception? (abstract)
 
-According to the [Java documentation](https://docs.oracle.com/javase/tutorial/essential/exceptions/definition.html), *an exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions*. Basically, an exception is a special condition that is unexpected during execution. Usually this is an error. In Java, all errors are classes that extend the builtin *Exception* class.
+According to the [Java documentation](https://docs.oracle.com/javase/tutorial/essential/exceptions/definition.html), *an exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions*. Basically, an exception is a special condition that is unexpected during execution. Usually, exceptions are errors. In Java, all errors are classes that extend the builtin *Exception* class.
 
 ### Catching Exceptions
 
