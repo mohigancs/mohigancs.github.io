@@ -6,7 +6,7 @@ title: big O notation
 
 *Big O Notation* is used in Computer Science to describe the performance or complexity of an algorithm. Big O can be used to describe the execution time required or the space used by an algorithm.
 
-### constant time: $$ \boldsymbol{O(1)} $$
+### constant time: $$ \boldsymbol{O \left 1 \right} $$
 
 *Constant time* is when operations take a fixed, or constant time. This may be when you assign a value to some variable, insert an element into an array, determine if a binary number is even or odd, etc. 
 
