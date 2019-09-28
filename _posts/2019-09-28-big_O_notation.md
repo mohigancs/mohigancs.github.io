@@ -50,5 +50,10 @@ Some examples of quadratic time are performing linear search in a matrix, insert
 
 ### logarithmic time: $$ O(\log(n)) $$
 
+\( O(n) \)
+$ O(n) $
+$$ O(n) $$
+$$ \O(n) $$
+
 coming soon! 
 :thonk:
