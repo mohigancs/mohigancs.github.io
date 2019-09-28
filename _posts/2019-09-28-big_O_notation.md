@@ -4,7 +4,7 @@ title: big O notation
 
 ### what is big O?
 
-Big O notation is used in Computer Science to describe the performance or complexity of an algorithm. Big O specifically describes the worst-case scenario, and can be used to describe the execution time required or the space used (e.g. in memory or on disk) by an algorithm.
+Big O notation is used in Computer Science to describe the performance or complexity of an algorithm. Big O can be used to describe the execution time required or the space used by an algorithm.
 
 ### constant time: O(1)
 
