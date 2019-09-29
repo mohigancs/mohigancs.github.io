@@ -35,7 +35,7 @@ Some examples of linear time are finding an item in an unsorted collection, or s
 
 ### quadratic time: $$ \boldsymbol{O(n^2)} $$
 
-In this example the first loop executes $$ n $$ times. For each time the outer loop executes, the inner loop executes $$ n $$ times. Therefore, the statement in the nested loop executes a total of $$ n * n $$ or $$ n^2 ** times. The complexity is $$ O(n^2) $$. Quadratic time algorithms should be avoided as the computational complexity will grow very quickly (at a quadratic rate). 
+In this example the first loop executes $$ n $$ times. For each time the outer loop executes, the inner loop executes $$ n $$ times. Therefore, the statement in the nested loop executes a total of $$ n * n $$ or $$ n^2 $$ times. The complexity is $$ O(n^2) $$. Quadratic time algorithms should be avoided as the computational complexity will grow very quickly (at a quadratic rate). 
 
 ```java 
 public static void main(String[] args) {
