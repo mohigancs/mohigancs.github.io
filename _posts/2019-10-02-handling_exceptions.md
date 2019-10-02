@@ -2,7 +2,7 @@
 title: Handling exceptions
 ---
 
-###Two ways to handle exceptions:
+### Two ways to handle exceptions:
 	
 Use *try*, *catch*, *finally*
 
