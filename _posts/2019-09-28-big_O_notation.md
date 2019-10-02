@@ -41,7 +41,7 @@ In this example the first loop executes $$ n $$ times. For each time the outer l
 public static void main(String[] args) {
         for (int i = 0; i < n; i++){
                 for (int j = 0; j < n; j++){
-			// operation that will repeat n^2 times
+			// operation that will repeat $$ n^2 $$ times
 		} 
         }
 }
