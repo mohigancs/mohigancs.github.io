@@ -1,9 +1,12 @@
-### Handling exceptions
-Two ways to handle exceptions:
+---
+title: Handling exceptions
+---
+
+###Two ways to handle exceptions:
 	
 Use *try*, *catch*, *finally*
 
-Catching exceptions...(referred to above as “handling” the exception). This uses *try*, *catch*, and *finally*.
+Catching exceptions...(referred to above as "handling" the exception). This uses *try*, *catch*, and *finally*.
 
 ```java
 public class MyClass{
