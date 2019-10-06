@@ -31,7 +31,7 @@ public static void main(String[] args) {
 }
 ```
 
-Some examples of linear time are finding an item in an unsorted collection, or sorting an array with bubble sort.
+Some examples of linear time are finding an item in an unsorted collection, or sorting an array with *bubble sort*.
 
 ### quadratic time: $$ \boldsymbol{O(n^2)} $$
 
@@ -46,9 +46,18 @@ public static void main(String[] args) {
         }
 }
 ```
-Some examples of quadratic time are performing a linear search in a matrix, insertion sort, etc.
+Some examples of quadratic time are performing a linear search in a matrix, *insertion sort*, etc.
 
 ### logarithmic time: $$ \boldsymbol{O(\log{n})} $$
 
-coming soon! 
-:thonk:
+Logarithmic time grows slower as N grows. An easy way to check if a loop is log n is to see if the counting variable doubles instead of incrementing by 1. In the following example *int i* doesn't increase by 1, it doubles with each run thus traversing the loop in $$ log(n) $$ time.
+
+```java
+public static void main(String[] args) {
+        for (int i = 0; i < n; i *= 2){
+		// operation that will repeat log(n) times
+        }
+}
+```
+
+Some common examples of logarithmic time are *binary search*, insert or delete an element into a heap, etc.
